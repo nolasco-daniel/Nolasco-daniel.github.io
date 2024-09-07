@@ -1,0 +1,293 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    margin: 0 auto;
+    background: rgba(205, 207, 192, 0.8);
+    overflow: hidden;
+  }
+  .rectangle {
+    position: relative;
+    width: 294px;
+    height: 61px;
+    margin: 53px 0 0 33px;
+    background: #CDCFC9;
+    background-size: cover;
+  }
+  .contact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 151px;
+    height: 48px;
+    top: 7px;
+    left: 72px;
+    color: #423f32;
+    font-family: Inter, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .flex-row-dc {
+    position: relative;
+    width: 215px;
+    height: 29px;
+    margin: 87px 0 0 81px;
+    z-index: 15;
+  }
+  .fb-facebook-logo {
+    position: absolute;
+    width: 32.741px;
+    height: 26px;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    border-radius: 55px;
+  }
+  .daniel-nolasco {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 0;
+    left: 46px;
+    color: #f1ebe5;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .fb1 {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 1px;
+    left: 12px;
+    background: url(https://res.cloudinary.com/dphvhssec/image/upload/v1724752194/kiks/vplr3wtmculocqlfyhuo.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 15;
+  }
+  .flex-row-f {
+    position: relative;
+    width: 211px;
+    height: 29px;
+    margin: 28px 0 0 85px;
+    z-index: 13;
+  }
+  .daniel-nolasco-1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 0;
+    left: 44px;
+    color: #f1ebe5;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+  }
+  .replit {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 3px;
+    left: 0;
+    z-index: 6;
+  }
+  .replit1 {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 3px;
+    left: 10px;
+    background: url(https://res.cloudinary.com/dphvhssec/image/upload/v1724752184/kiks/gdfuvzxhzwnzwa7abnig.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 13;
+  }
+  .flex-row-b {
+    position: relative;
+    width: 218px;
+    height: 39px;
+    margin: 20px 0 0 79px;
+    z-index: 11;
+  }
+  .empty {
+    position: absolute;
+    width: 58px;
+    height: 39px;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    overflow: hidden;
+  }
+  .git {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 5px;
+    left: 9px;
+    z-index: 7;
+  }
+  .vector {
+    position: absolute;
+    width: 45.58%;
+    height: 66.67%;
+    top: 16.67%;
+    left: 27.21%;
+    background: url(https://res.cloudinary.com/dphvhssec/image/upload/v1724477354/kiks/fymhbvxb6hwgmrq7rcgw.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 12;
+  }
+  .nolasco-daniel {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 5px;
+    left: 51px;
+    color: #f1ebe5;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 8;
+  }
+  .flex-row-ea {
+    position: relative;
+    width: 138px;
+    height: 31.783px;
+    margin: 18px 0 0 88px;
+    z-index: 14;
+  }
+  .pic-3 {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 0;
+    left: 7px;
+    background: url(https://res.cloudinary.com/dphvhssec/image/upload/v1724752191/kiks/yli2itpax6r1zbzli0hd.webp)
+      no-repeat center;
+    background-size: cover;
+    z-index: 14;
+  }
+  .chnoxx {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 0;
+    left: 45px;
+    color: #f1ebe5;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .instagram-icon {
+    position: absolute;
+    width: 33.22px;
+    height: 29.783px;
+    top: 2px;
+    left: 0;
+    z-index: 5;
+    border-radius: 6px;
+  }
+  .vector-2 {
+    position: relative;
+    width: 56.255px;
+    height: 41.378px;
+    margin: 179.217px 0 0 153px;
+    background: url(https://res.cloudinary.com/dphvhssec/image/upload/v1725002208/kiks/ziubpbydbp183wozlm7o.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 10;
+  }
+
+  @media only screen and (min-width:400px) {
+    .main-container {
+      width: 1400px;
+
+    }
+
+    .rectangle {
+      left: 995px;
+    }
+    .daniel-nolasco{
+      left: 600px;
+      width: 50px;
+      font-size: 35px;
+    }
+    .fb1{
+      left: 560px;
+    }
+    .daniel-nolasco-1 {
+      left: 600px;
+      width: 50px;
+      font-size: 35px;
+    }  
+    .replit1 {
+      left: 560px;
+    }
+    .nolasco-daniel {
+      left: 600px;
+      width: 50px;
+      font-size: 35px;
+    }
+    .empty{
+      left: 550px;
+    }
+    .chnoxx {
+      left: 600px;
+      width: 50px;
+      font-size: 35px;
+    }
+    .pic-3 {
+      left: 560px;
+    }
+  }
